@@ -1,5 +1,12 @@
+//import html and css here
+
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+
+// import components here
+
+
+// main component function here
 
 export default function Home() {
   return (
