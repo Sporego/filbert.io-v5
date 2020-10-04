@@ -1,3 +1,8 @@
+// Build global.css with this file
+
+// Note
+// Variable overrides within the same Sass file can come before or after the default variables. However, when overriding across Sass files, your overrides must come before you import Bootstrap’s Sass files.
+
 $grid-breakpoints: (
         xs: 0,
         sm: 576px,
