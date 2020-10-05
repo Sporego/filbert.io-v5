@@ -1,7 +1,6 @@
-//import html and css here
+//import html and page specific css here
 
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 
 // import components here
 
