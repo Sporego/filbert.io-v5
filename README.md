@@ -8,7 +8,7 @@ It's that time again! The previously deployed production version of my personal 
 
 ```
 /*Apply Prettier config*/
-npx run prettier
+npm run prettier
 
 /*ESLint typechecking*/
 npm run eslint
