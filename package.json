@@ -6,8 +6,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint --fix .",
-        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+        "eslint": "eslint --fix .",
+        "prettier": "npx prettier --write ."
     },
     "dependencies": {
         "bootstrap": "^4.5.2",
