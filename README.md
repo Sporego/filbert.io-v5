@@ -1,4 +1,5 @@
 # filbert.io-v5
+It's that time again! The previously deployed production version of my personal website doesn't suite the developer I am today. I've learned too many new technologies and have way too many ideas waiting to be implemented.
 
 ## Developer Documentation
 
