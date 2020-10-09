@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
+import Brand from '../public/logo.svg'
 
 export default function navbar() {
     // functions
@@ -13,13 +14,8 @@ export default function navbar() {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
             <Navbar.Brand href="#home">
-                <img
-                    alt="logo"
-                    src="C:/Users/conta/Downloads/html-20s-100px.svg"
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top"
-                />{' '}
+                <Brand/>
+                {' '}
                 Filbert.IO
             </Navbar.Brand>{' '}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
