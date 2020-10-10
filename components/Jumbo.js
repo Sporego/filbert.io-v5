@@ -1,7 +1,7 @@
 // import individual react-bootstrap components
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
-export default function navbar() {
+export default function jumbo() {
     // functions
 
     // returned component

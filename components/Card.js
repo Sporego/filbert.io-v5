@@ -1,7 +1,7 @@
 // import individual react-bootstrap components
 import Card from 'react-bootstrap/Card';
 
-export default function navbar() {
+export default function card() {
     // functions
 
     // returned component
