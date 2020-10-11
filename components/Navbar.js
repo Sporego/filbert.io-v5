@@ -13,7 +13,7 @@ export default function navbar() {
 
     // returned component
     return (
-        <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar bg="dark" expand="lg" variant="dark" className="lg">
             <Navbar.Brand href="#home">
                 <Brand /> Filbert.IO
             </Navbar.Brand>
