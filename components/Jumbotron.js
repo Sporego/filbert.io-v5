@@ -1,20 +1,17 @@
 // import individual react-bootstrap components
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 
-export default function jumbo(paramOne) {
+export default function jumbo(props) {
     // functions
 
     // returned component
     return (
         <Jumbotron>
-            <h1>paramOne</h1>
+            <h1>{props.header}</h1>
+            <p>{props.paragraph}</p>
             <p>
-                This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention to featured content or information.
-            </p>
-            <p>
-                <Button variant="primary">Learn more</Button>
+                <Button variant={props.variant}>{props.buttonText}</Button>
             </p>
         </Jumbotron>
     );
